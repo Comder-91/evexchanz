@@ -1,0 +1,78 @@
+
+  /* Styles for the outer container */
+  .d-flex {
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+
+  /* Styles for the login form container */
+  .h-custom.login {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  /* Styles for the form labels */
+  label {
+    font-weight: bold;
+  }
+
+  /* Styles for the input fields */
+  .form-control {
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    padding: 8px;
+    width: 100%;
+  }
+
+  /* Styles for the login/sign up buttons */
+  .btn-primary {
+    background-color: #007bff;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 3px;
+  }
+
+  .btn-primary:hover {
+    background-color: #0069d9;
+  }
+
+  .btn-danger {
+    background-color: #752e35;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 3px;
+  }
+
+  .btn-danger:hover {
+    background-color: #51141a;
+  }
+
+  /* Styles for the "Already have an account?"/"New to Battex?" button */
+  .btn-light {
+    background-color: transparent;
+    border: none;
+    color: #6c757d;
+    cursor: pointer;
+    padding: 0;
+  }
+
+  .btn-light:hover {
+    text-decoration: underline;
+  }
+
+  /* Styles for the error message */
+  .text-danger {
+    color: #dc3545;
+  }
+
+  /* Styles for the Google icon */
+  .google-icon {
+    vertical-align: middle;
+    margin-right: 5px;
+  }
